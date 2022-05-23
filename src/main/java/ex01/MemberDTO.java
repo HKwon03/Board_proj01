@@ -6,7 +6,7 @@ public class MemberDTO {
 	private String pwd;
 	private String name;
 	private String email;
-	private java.sql.Date joindate;
+	private String joindate;
 	public String getId() {
 		return id;
 	}
@@ -31,10 +31,10 @@ public class MemberDTO {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	public java.sql.Date getJoindate() {
+	public String getJoindate() {
 		return joindate;
 	}
-	public void setJoindate(java.sql.Date joindate) {
+	public void setJoindate(String joindate) {
 		this.joindate = joindate;
 	}
 	

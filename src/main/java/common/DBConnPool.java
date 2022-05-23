@@ -17,7 +17,7 @@ public class DBConnPool {
 	public PreparedStatement psmt;
 	public ResultSet rs; 
 	
-	//기본 생성자 (상속할것이기 때문에 여기서 close();하면 안된다.
+	//기본 생성자 
 	public DBConnPool() {
 		
         try {
