@@ -30,7 +30,6 @@ public class InsertController extends HttpServlet {
 		dto.setPwd(req.getParameter("pwd"));
 		dto.setName(req.getParameter("name"));
 		dto.setEmail(req.getParameter("email"));
-		dto.setJoindate(req.getParameter("joindate"));
 	    
 		
 		

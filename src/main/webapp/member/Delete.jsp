@@ -31,7 +31,7 @@
 		<tr>
 			<td>비밀번호 : </td>
 			<td> 
-				<input type = "password" name = "pass" style = "width:100px" />
+				<input type = "password" name = "pwd" style = "width:100px" />
 			</td>
 		</tr>
 		<tr>
